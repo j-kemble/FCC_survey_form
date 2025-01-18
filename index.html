@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width intitial scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Photography Style Survey</title>
+</head>
+
+<body>
+  <main>
+    <form id="survey-form" action="">
+      <h1 id="title">Photography Style Survey</h1>
+      <p id="description">Let us know, what style of photography do you like?</p>
+
+      <fieldset>
+        <legend>Tell us about yourself:</legend>
+        <label id="name-label" for="name">Name</label>
+        <input class="placeholder" type="text" id="name" name="name" placeholder="Enter your name" required></input>
+        <label id="email-label" for="email">Email</label>
+        <input class="placeholder" type="email" id="email" name="email" placeholder="Enter your email" required></input>
+        <label id="number-label" for="age">Age</label>
+        <input class="placeholder" type="number" id="number" name="age" min="13" max="120" placeholder="Enter your age" required></input>
+      </fieldset>
+
+      <fieldset>
+        <legend>Photography styles:</legend>
+        <label for="dropdown">Which style do you like most?
+          <select class="textfield" id="dropdown" name="dropdown" required>
+            <option value="" selected >Select style</option>
+            <option value="landscape">Landscape</option>
+            <option value="automotive">Automotive</option>
+            <option value="fashion">Fashion</option>
+            <option value="portrait">Portrait</option>
+            <option value="astrophotography">Astrophotography</option>
+            <option value="family">Family</option>
+            <option value="architecture">Architecture</option>
+            <option value="sports">Sports</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How would you describe your personality?</legend>
+        <label for="radio-button">
+          <input class="inline" type="radio" id="radio-button" value="adventurous" name="personality">
+          </input>Adventurous
+        </label>
+        <label for="radio-button">
+          <input class="inline" type="radio" id="radio-button" value="fun" name="personality">
+          </input>Fun
+        </label>
+        <label for="radio-button">
+          <input class="inline" type="radio" id="radio-button" value="serious" name="personality">
+          </input>Serious
+        </label>
+        <label for="radio-button">
+          <input class="inline" type="radio" id="radio-button" value="sensitive" name="personality">
+          </input>Sensitive
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What kind of photographer are you?</legend>
+        <label for="checkbox" name="photographer">
+          <input class="inline" value="not" type="checkbox" id="checkbox">I am not a photographer.
+          </label>
+        <label for="checkbox" name="photographer">
+          <input class="inline" value="casual" type="checkbox" id="checkbox">I am a casual photographer.
+          </label>
+        <label for="checkbox" name="photographer">
+          <input class="inline" value="hobbyist" type="checkbox" id="checkbox">I am a hobbyist.
+          </label>
+        <label for="checkbox" name="photographer">
+          <input class="inline" value="professional" type="checkbox" id="checkbox">I am a professional.
+          </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Something I left out?</legend>
+        <label for="tell-me">
+          <textarea id="tell-me" name="tell=me" rows="3" cols="30" placeholder="Tell me here..."></textarea>
+        </label>
+      </fieldset>
+
+      <input id="submit" type="submit" value="Submit" />
+      
+    </form>
+  </main>
+</body>
+
+</html>
