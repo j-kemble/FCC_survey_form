@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width intitial scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Photography Style Survey</title>
 </head>
@@ -17,18 +17,18 @@
       <fieldset>
         <legend>Tell us about yourself:</legend>
         <label id="name-label" for="name">Name</label>
-        <input class="placeholder" type="text" id="name" name="name" placeholder="Enter your name" required></input>
+        <input class="placeholder" type="text" id="name" name="name" placeholder="Enter your name" required />
         <label id="email-label" for="email">Email</label>
-        <input class="placeholder" type="email" id="email" name="email" placeholder="Enter your email" required></input>
+        <input class="placeholder" type="email" id="email" name="email" placeholder="Enter your email" required />
         <label id="number-label" for="age">Age</label>
-        <input class="placeholder" type="number" id="number" name="age" min="13" max="120" placeholder="Enter your age" required></input>
+        <input class="placeholder" type="number" id="age" name="age" min="13" max="120" placeholder="Enter your age" required />
       </fieldset>
 
       <fieldset>
         <legend>Photography styles:</legend>
         <label for="dropdown">Which style do you like most?
           <select class="textfield" id="dropdown" name="dropdown" required>
-            <option value="" selected >Select style</option>
+            <option value="" selected>Select style</option>
             <option value="landscape">Landscape</option>
             <option value="automotive">Automotive</option>
             <option value="fashion">Fashion</option>
@@ -43,44 +43,40 @@
 
       <fieldset>
         <legend>How would you describe your personality?</legend>
-        <label for="radio-button">
-          <input class="inline" type="radio" id="radio-button" value="adventurous" name="personality">
-          </input>Adventurous
+        <label>
+          <input class="inline" type="radio" value="adventurous" name="personality" />Adventurous
         </label>
-        <label for="radio-button">
-          <input class="inline" type="radio" id="radio-button" value="fun" name="personality">
-          </input>Fun
+        <label>
+          <input class="inline" type="radio" value="fun" name="personality" />Fun
         </label>
-        <label for="radio-button">
-          <input class="inline" type="radio" id="radio-button" value="serious" name="personality">
-          </input>Serious
+        <label>
+          <input class="inline" type="radio" value="serious" name="personality" />Serious
         </label>
-        <label for="radio-button">
-          <input class="inline" type="radio" id="radio-button" value="sensitive" name="personality">
-          </input>Sensitive
+        <label>
+          <input class="inline" type="radio" value="sensitive" name="personality" />Sensitive
         </label>
       </fieldset>
 
       <fieldset>
         <legend>What kind of photographer are you?</legend>
-        <label for="checkbox" name="photographer">
-          <input class="inline" value="not" type="checkbox" id="checkbox">I am not a photographer.
-          </label>
-        <label for="checkbox" name="photographer">
-          <input class="inline" value="casual" type="checkbox" id="checkbox">I am a casual photographer.
-          </label>
-        <label for="checkbox" name="photographer">
-          <input class="inline" value="hobbyist" type="checkbox" id="checkbox">I am a hobbyist.
-          </label>
-        <label for="checkbox" name="photographer">
-          <input class="inline" value="professional" type="checkbox" id="checkbox">I am a professional.
-          </label>
+        <label>
+          <input class="inline" value="not" type="checkbox" name="photographer" />I am not a photographer.
+        </label>
+        <label>
+          <input class="inline" value="casual" type="checkbox" name="photographer" />I am a casual photographer.
+        </label>
+        <label>
+          <input class="inline" value="hobbyist" type="checkbox" name="photographer" />I am a hobbyist.
+        </label>
+        <label>
+          <input class="inline" value="professional" type="checkbox" name="photographer" />I am a professional.
+        </label>
       </fieldset>
 
       <fieldset>
         <legend>Something I left out?</legend>
         <label for="tell-me">
-          <textarea id="tell-me" name="tell=me" rows="3" cols="30" placeholder="Tell me here..."></textarea>
+          <textarea id="tell-me" name="tell-me" rows="3" cols="30" placeholder="Tell me here..."></textarea>
         </label>
       </fieldset>
 
